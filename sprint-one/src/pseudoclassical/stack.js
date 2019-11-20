@@ -3,8 +3,6 @@ var Stack = function() {
   this.storage = {};
   this.StackSize = 0;  
 };
-
-
 Stack.prototype.push = function(value) {
     this.storage[this.StackSize] = value;
     this.StackSize ++;
